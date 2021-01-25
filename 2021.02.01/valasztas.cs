@@ -50,7 +50,7 @@ namespace _2021._02._01
         static void feladat3()
         {
             Console.WriteLine("3.feladat");
-            Console.WriteLine("Kérem adja meg a kívánt nevet:");
+            Console.WriteLine("Kérem adja meg a kívánt személy teljes nevét szóközzel elválasztva:");
             string keresett_nev = Console.ReadLine();
             string[] keresett_nev_elemek = keresett_nev.Split(" ");
             k[0].keres_vez_nev = keresett_nev_elemek[0];
