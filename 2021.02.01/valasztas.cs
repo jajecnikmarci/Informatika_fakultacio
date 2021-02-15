@@ -191,7 +191,11 @@ namespace _2021._02._01
                 }
                 if (t[s].part=="-")
                 {
-//                    ki.WriteLine(ker+"")
+                    ki.WriteLine(ker + " " + t[s].vez_nev + " " + t[s].ker_nev + " független");
+                }
+                else
+                {
+                    ki.WriteLine(ker + " " + t[s].vez_nev + " " + t[s].ker_nev + " " + t[s].part);
                 }
             }
         }
