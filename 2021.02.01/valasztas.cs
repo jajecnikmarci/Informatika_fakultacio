@@ -31,7 +31,7 @@ namespace _2021._02._01
             while (!be.EndOfStream)
             {
                 string sor = be.ReadLine();
-                string[] sorelemek = sor.Split(" ");
+                string[] sorelemek = sor.Split(' ');
                 t[i].ker= Convert.ToInt32( sorelemek[0]);
                 t[i].szavazat= Convert.ToInt32(sorelemek[1]);
                 t[i].vez_nev= sorelemek[2];
